@@ -1,0 +1,4 @@
+Invoking command in '/bhf_assessments/build/bhf_vo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /bhf_assessments/build/bhf_vo -- -j16 -l16
+Invoked command in '/bhf_assessments/build/bhf_vo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /bhf_assessments/build/bhf_vo -- -j16 -l16
+Invoking command in '/bhf_assessments/build/bhf_vo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /bhf_assessments/build/bhf_vo
+Invoked command in '/bhf_assessments/build/bhf_vo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /bhf_assessments/build/bhf_vo

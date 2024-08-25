@@ -1,0 +1,4 @@
+source;share/bhf_vo/local_setup.bash
+source;share/bhf_vo/local_setup.dsv
+source;share/bhf_vo/local_setup.sh
+source;share/bhf_vo/local_setup.zsh

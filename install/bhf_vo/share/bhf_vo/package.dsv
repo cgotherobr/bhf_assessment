@@ -1,0 +1,8 @@
+source;share/bhf_vo/hook/cmake_prefix_path.ps1
+source;share/bhf_vo/hook/cmake_prefix_path.dsv
+source;share/bhf_vo/hook/cmake_prefix_path.sh
+source;share/bhf_vo/local_setup.bash
+source;share/bhf_vo/local_setup.dsv
+source;share/bhf_vo/local_setup.ps1
+source;share/bhf_vo/local_setup.sh
+source;share/bhf_vo/local_setup.zsh

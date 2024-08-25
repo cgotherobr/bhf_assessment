@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001287] (bhf_vo) JobQueued: {'identifier': 'bhf_vo', 'dependencies': OrderedDict()}
+[0.001346] (bhf_vo) JobStarted: {'identifier': 'bhf_vo'}
+[0.012089] (bhf_vo) JobProgress: {'identifier': 'bhf_vo', 'progress': 'cmake'}
+[0.012149] (bhf_vo) Command: {'cmd': ['/usr/bin/cmake', '/bhf_assessments/src/bhf_vo', '-DCMAKE_INSTALL_PREFIX=/bhf_assessments/install/bhf_vo'], 'cwd': '/bhf_assessments/build/bhf_vo', 'env': OrderedDict([('HOSTNAME', 'tia-XPS-9320'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/bhf_assessments/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/bhf_assessments/install/bhf_vo:/opt/ros/humble'), ('PWD', '/bhf_assessments/build/bhf_vo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/bhf_assessments/install/bhf_vo:/opt/ros/humble')]), 'shell': False}
+[0.070824] (bhf_vo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099626] (-) TimerEvent: {}
+[0.133481] (bhf_vo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.142240] (bhf_vo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199831] (-) TimerEvent: {}
+[0.212820] (bhf_vo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.221913] (bhf_vo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.222204] (bhf_vo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.222760] (bhf_vo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.226526] (bhf_vo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300035] (-) TimerEvent: {}
+[0.309205] (bhf_vo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.318604] (bhf_vo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.318957] (bhf_vo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.319629] (bhf_vo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.322175] (bhf_vo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400273] (-) TimerEvent: {}
+[0.500593] (-) TimerEvent: {}
+[0.505051] (bhf_vo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600727] (-) TimerEvent: {}
+[0.618213] (bhf_vo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.690434] (bhf_vo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.696815] (bhf_vo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700916] (-) TimerEvent: {}
+[0.708142] (bhf_vo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.725802] (bhf_vo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.747275] (bhf_vo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801113] (-) TimerEvent: {}
+[0.804687] (bhf_vo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.808368] (bhf_vo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901265] (-) TimerEvent: {}
+[0.907110] (bhf_vo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.940334] (bhf_vo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.988219] (bhf_vo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.000472] (bhf_vo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001438] (-) TimerEvent: {}
+[1.072281] (bhf_vo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.072737] (bhf_vo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101628] (-) TimerEvent: {}
+[1.145833] (bhf_vo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.147200] (bhf_vo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201819] (-) TimerEvent: {}
+[1.230830] (bhf_vo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.274248] (bhf_vo) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[1.293824] (bhf_vo) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.297824] (bhf_vo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.301993] (-) TimerEvent: {}
+[1.402349] (bhf_vo) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.402542] (-) TimerEvent: {}
+[1.403410] (bhf_vo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.403701] (bhf_vo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/bhf_assessments/src/bhf_vo/include>\n'}
+[1.403853] (bhf_vo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.404636] (bhf_vo) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.404790] (bhf_vo) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.405386] (bhf_vo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.406214] (bhf_vo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.406296] (bhf_vo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.406789] (bhf_vo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.407886] (bhf_vo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.424328] (bhf_vo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.426164] (bhf_vo) StdoutLine: {'line': b'-- Build files have been written to: /bhf_assessments/build/bhf_vo\n'}
+[1.439261] (bhf_vo) CommandEnded: {'returncode': 0}
+[1.439773] (bhf_vo) JobProgress: {'identifier': 'bhf_vo', 'progress': 'build'}
+[1.439825] (bhf_vo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/bhf_assessments/build/bhf_vo', '--', '-j16', '-l16'], 'cwd': '/bhf_assessments/build/bhf_vo', 'env': OrderedDict([('HOSTNAME', 'tia-XPS-9320'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/bhf_assessments/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/bhf_assessments/install/bhf_vo:/opt/ros/humble'), ('PWD', '/bhf_assessments/build/bhf_vo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/bhf_assessments/install/bhf_vo:/opt/ros/humble')]), 'shell': False}
+[1.488126] (bhf_vo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bhf_vo_node.dir/src/bhf_vo_node.cpp.o\x1b[0m\n'}
+[1.502759] (-) TimerEvent: {}
+[1.530220] (bhf_vo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bhf_vo_node\x1b[0m\n'}
+[1.603069] (-) TimerEvent: {}
+[1.703682] (-) TimerEvent: {}
+[1.804082] (-) TimerEvent: {}
+[1.904374] (-) TimerEvent: {}
+[1.923780] (bhf_vo) StdoutLine: {'line': b'[100%] Built target bhf_vo_node\n'}
+[1.933710] (bhf_vo) CommandEnded: {'returncode': 0}
+[1.959482] (bhf_vo) JobProgress: {'identifier': 'bhf_vo', 'progress': 'install'}
+[1.969665] (bhf_vo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/bhf_assessments/build/bhf_vo'], 'cwd': '/bhf_assessments/build/bhf_vo', 'env': OrderedDict([('HOSTNAME', 'tia-XPS-9320'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/bhf_assessments/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/bhf_assessments/install/bhf_vo:/opt/ros/humble'), ('PWD', '/bhf_assessments/build/bhf_vo'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/bhf_assessments/install/bhf_vo:/opt/ros/humble')]), 'shell': False}
+[1.979199] (bhf_vo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.979405] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/lib/bhf_vo/bhf_vo_node\n'}
+[1.979598] (bhf_vo) StdoutLine: {'line': b'-- Set runtime path of "/bhf_assessments/install/bhf_vo/lib/bhf_vo/bhf_vo_node" to ""\n'}
+[1.979738] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/package_run_dependencies/bhf_vo\n'}
+[1.979876] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/parent_prefix_path/bhf_vo\n'}
+[1.979968] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/ament_prefix_path.sh\n'}
+[1.980099] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/ament_prefix_path.dsv\n'}
+[1.980226] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/path.sh\n'}
+[1.980349] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/path.dsv\n'}
+[1.980468] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.bash\n'}
+[1.980743] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.sh\n'}
+[1.981017] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.zsh\n'}
+[1.981422] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.dsv\n'}
+[1.981580] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/package.dsv\n'}
+[1.981717] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/packages/bhf_vo\n'}
+[1.981871] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/cmake/bhf_voConfig.cmake\n'}
+[1.981998] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/cmake/bhf_voConfig-version.cmake\n'}
+[1.982122] (bhf_vo) StdoutLine: {'line': b'-- Installing: /bhf_assessments/install/bhf_vo/share/bhf_vo/package.xml\n'}
+[1.983231] (bhf_vo) CommandEnded: {'returncode': 0}
+[2.004474] (-) TimerEvent: {}
+[2.035047] (bhf_vo) JobEnded: {'identifier': 'bhf_vo', 'rc': 0}
+[2.035789] (-) EventReactorShutdown: {}

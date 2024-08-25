@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/bhf_assessments/build/bhf_vo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /bhf_assessments/build/bhf_vo -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target bhf_vo_node[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/bhf_vo_node.dir/src/bhf_vo_node.cpp.o[0m
+[4.070s] [100%] [32m[1mLinking CXX executable bhf_vo_node[0m
+[4.405s] [100%] Built target bhf_vo_node
+[4.416s] Invoked command in '/bhf_assessments/build/bhf_vo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /bhf_assessments/build/bhf_vo -- -j16 -l16
+[4.452s] Invoking command in '/bhf_assessments/build/bhf_vo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /bhf_assessments/build/bhf_vo
+[4.459s] -- Install configuration: ""
+[4.459s] -- Installing: /bhf_assessments/install/bhf_vo/lib/bhf_vo/bhf_vo_node
+[4.460s] -- Set runtime path of "/bhf_assessments/install/bhf_vo/lib/bhf_vo/bhf_vo_node" to ""
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/package_run_dependencies/bhf_vo
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/parent_prefix_path/bhf_vo
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/ament_prefix_path.sh
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/ament_prefix_path.dsv
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/path.sh
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/path.dsv
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.bash
+[4.460s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.sh
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.zsh
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.dsv
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/package.dsv
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/packages/bhf_vo
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/cmake/bhf_voConfig.cmake
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/cmake/bhf_voConfig-version.cmake
+[4.461s] -- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/package.xml
+[4.462s] Invoked command in '/bhf_assessments/build/bhf_vo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /bhf_assessments/build/bhf_vo

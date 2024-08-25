@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target bhf_vo_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bhf_vo_node.dir/src/bhf_vo_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bhf_vo_node[0m
+[100%] Built target bhf_vo_node
+-- Install configuration: ""
+-- Installing: /bhf_assessments/install/bhf_vo/lib/bhf_vo/bhf_vo_node
+-- Set runtime path of "/bhf_assessments/install/bhf_vo/lib/bhf_vo/bhf_vo_node" to ""
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/package_run_dependencies/bhf_vo
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/parent_prefix_path/bhf_vo
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/ament_prefix_path.sh
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/ament_prefix_path.dsv
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/path.sh
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/environment/path.dsv
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.bash
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.sh
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.zsh
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/local_setup.dsv
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/package.dsv
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/ament_index/resource_index/packages/bhf_vo
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/cmake/bhf_voConfig.cmake
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/cmake/bhf_voConfig-version.cmake
+-- Up-to-date: /bhf_assessments/install/bhf_vo/share/bhf_vo/package.xml
